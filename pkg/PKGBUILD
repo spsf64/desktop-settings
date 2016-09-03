@@ -10,6 +10,7 @@ license=('GPL')
 makedepends=('git')
 source=("git+$url.git")
 sha256sums=('SKIP')
+install=$pkgname.install
 
 pkgver() {
 	date +%Y%m%d
@@ -17,6 +18,6 @@ pkgver() {
 
 package() {
 	install -d $pkgdir/etc
+	mkdir $pkgdir/etc/skel
 	cp -r $srcdir/desktop-settings/shared/skel $pkgdir/etc
 }
-

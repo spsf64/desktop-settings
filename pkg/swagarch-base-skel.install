@@ -1,0 +1,14 @@
+pre_install() {
+	if [ -d /etc/skel ]; then
+         rm -rf /etc/skel/
+         mkdir /etc/skel/
+	fi
+}
+
+post_upgrade() {
+    pre_install
+}
+
+post_remove() {
+    pre_install
+}
