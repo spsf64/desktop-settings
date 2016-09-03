@@ -5,10 +5,6 @@ pre_install() {
 	fi
 }
 
-post_upgrade() {
-    pre_install
-}
-
-post_remove() {
+pre_upgrade() {
     pre_install
 }
