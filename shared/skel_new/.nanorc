@@ -4,7 +4,6 @@ set tabstospaces
 set brackets ""')>]}"
 set matchbrackets "(<[{)>]}"
 set morespace
-set mouse
 set multibuffer
 set smooth
 
