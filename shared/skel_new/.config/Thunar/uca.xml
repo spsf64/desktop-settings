@@ -1,0 +1,32 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Terminal hier öffnen</name>
+	<unique-id>1475650017792636-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Beispiel für eine eigene Aktion</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>folder_color_red</icon>
+	<name>Thunar as root</name>
+	<unique-id>1476163269478019-9</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Thunar as Root</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>text-editor</icon>
+	<name>Edit as root</name>
+	<unique-id>1476163265891366-8</unique-id>
+	<command>pkexec pluma %f</command>
+	<description>Edit as root</description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
