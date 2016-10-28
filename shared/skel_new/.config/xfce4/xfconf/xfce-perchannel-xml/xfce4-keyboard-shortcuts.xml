@@ -38,7 +38,7 @@
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter -w"/>
       <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="F3" type="string" value="/usr/bin/fsearch"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="/usr/bin/fsearch"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
