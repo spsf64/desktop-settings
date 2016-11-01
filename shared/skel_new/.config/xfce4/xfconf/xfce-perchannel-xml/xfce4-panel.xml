@@ -14,6 +14,8 @@
         <value type="int" value="3"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
+        <value type="int" value="12"/>
+        <value type="int" value="11"/>
         <value type="int" value="10"/>
         <value type="int" value="9"/>
         <value type="int" value="7"/>
@@ -76,6 +78,13 @@
       </property>
     </property>
     <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+     <property name="plugin-11" type="string" value="windowmenu">
+      <property name="workspace-names" type="bool" value="false"/>
+      <property name="workspace-actions" type="bool" value="true"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
