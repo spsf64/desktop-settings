@@ -56,7 +56,7 @@ function _git_prompt() {
 # Colour your prompt
 
 function _prompt_command() {
-    PS1='\n\n\[$PINK\]\u \[$LBLUE\]on \[$PURPLE\]\d \[$LBLUE\]at \[$ORANGE\]\@ \[$LBLUE\]in \[$GREEN\]\w \[$ORANGE\]`_git_prompt` \n\[$GREEN\]>> \[$YELLOW\]'
+    PS1='\n\n\[$PINK\]\u \[$LBLUE\]on \[$PURPLE\]\d \[$LBLUE\]at \[$ORANGE\]\@\[$LBLUE\]in \[$GREEN\]\w \[$ORANGE\]`_git_prompt` \n\[$GREEN\]>> \[$YELLOW\]'
 }
 
 export PROMPT_COMMAND=_prompt_command
