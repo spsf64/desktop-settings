@@ -66,4 +66,4 @@ alias xflock4="light-locker-command -l"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 
-screenfetch -D "Arch Linux"
+screenfetch
