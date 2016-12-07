@@ -29,7 +29,7 @@ trap debug DEBUG
 
 function _git_prompt() {
     if [ -d .git ]; then
-        local git_status="`git status -unormal 2>&1`"
+        local git_status="`LC_ALL=C git status -unormal 2>&1`"
         if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
             if [[ "$git_status" =~ nothing\ to\ commit ]]; then
                 local gitcolour="nothing to commit:$YELLOW"
