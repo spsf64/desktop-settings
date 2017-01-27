@@ -30,7 +30,7 @@ command-logout=xfce4-session-logout
 show-command-logout=true
 command-menueditor=alacarte
 show-command-menueditor=true
-command-profile=/usr/bin/swagarch-settings-manager-gui
+command-profile=mugshot
 show-command-profile=true
 search-actions=4
 
