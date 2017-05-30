@@ -23,7 +23,7 @@
 	<icon>text-editor</icon>
 	<name>Edit as Root</name>
 	<unique-id>1476164983371929-14</unique-id>
-	<command>pkexec pluma %f</command>
+	<command>pkexec xed %f</command>
 	<description>Edit as root</description>
 	<patterns>*</patterns>
 	<other-files/>
