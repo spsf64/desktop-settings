@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Xfce</Name>
+	<MergeFile type="parent">/etc/xdg/menus/xfce-applications.menu</MergeFile>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Exclude>
+			<Filename>mpv.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/memoryleakx/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>qv4l2.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>
