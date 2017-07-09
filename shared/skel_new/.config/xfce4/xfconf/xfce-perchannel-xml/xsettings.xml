@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Arc-Darker"/>
-    <property name="IconThemeName" type="string" value="Vibrancy-Full-Dark-Blue-Vivid"/>
+    <property name="IconThemeName" type="string" value="Surfn-Luv"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -14,16 +14,16 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="97"/>
+    <property name="DPI" type="int" value="96"/>
     <property name="Antialias" type="empty"/>
-    <property name="Hinting" type="empty"/>
+    <property name="Hinting" type="int" value="hintslight"/>
     <property name="HintStyle" type="empty"/>
-    <property name="RGBA" type="empty"/>
+    <property name="RGBA" type="string" value="rgb"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="Droid Sans 11"/>
+    <property name="FontName" type="string" value="Ubuntu 10"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
@@ -36,6 +36,6 @@
     <property name="DecorationLayout" type="string" value=":minimize,maximize,close"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="97"/>
+    <property name="LastCustomDPI" type="int" value="96"/>
   </property>
 </channel>
